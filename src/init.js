@@ -8,8 +8,9 @@ export default function pageLoad() {
 
     const menu_link = document.createElement('a');
     menu_link.classList.add('link');
+    menu_link.setAttribute("id","menu")
     menu_link.innerHTML = "Menu";
-    menu_link.href = "";
+    menu_link.href = "#";
     header.appendChild(menu_link);
     
     const mainLogo = new Image();
@@ -18,14 +19,16 @@ export default function pageLoad() {
 
     const logo_link = document.createElement('a');
     logo_link.classList.add("link-logo");
-    logo_link.href = "";
+    logo_link.setAttribute("id","logo")
+    logo_link.href = "#";
     logo_link.appendChild(mainLogo);
     header.appendChild(logo_link);
 
     const contact_link = document.createElement('a');
     contact_link.classList.add("link");
+    contact_link.setAttribute("id","contact")
     contact_link.innerHTML = "Contact";
-    contact_link.href = "";
+    contact_link.href = "#";
     header.appendChild(contact_link);
 
     return header;

@@ -65,18 +65,48 @@ h1 {
 }
 
 .background {
-    width: 649px;
-    height: 684px;
+    width: 692px;
+    height: 622px;
     background-color: rgb(0,0,0,0.6);
     margin-left: auto;
     margin-right: auto;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+    border-radius: 18px;
 }
 
-
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+}
 
 .article > img {
     height: 159px;
     margin-left: 30px;
     margin-top: 30px;
+    border-radius: 23px;
+}
+
+h2 {
+    font-family: "Raleway",Arial,sans-serif;
+    letter-spacing: .02em;
+    font-weight: 800;
+    color: #fff;
+    font-size: 24px;
+    width: 255px;
+    margin-left: 55px;
+    line-height: 85px;
+}
+
+h3 {
+    font-family: "Raleway",Arial,sans-serif;
+    letter-spacing: .02em;
+    font-weight: 800;
+    color: #fff;
+    font-size: 24px;
+    width: 80px;
+    margin-left: 55px;
+    line-height: 85px;
 }
