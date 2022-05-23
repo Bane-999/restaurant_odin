@@ -46,8 +46,37 @@ h1 {
     font-weight: 800;
     color: #fff;
     font-size: 100px;
-    width: 397px;
+    width: 383px;
     margin-left: auto;
     margin-right: auto;
     line-height: 85px;
+}
+
+.link:hover {
+    color: #c4c4c4;  
+}
+
+.logo:hover {
+    filter: invert(62%) sepia(85%) saturate(1%) hue-rotate(314deg) brightness(200%) contrast(92%);
+}
+
+.body {
+    display: flex;
+}
+
+.background {
+    width: 649px;
+    height: 684px;
+    background-color: rgb(0,0,0,0.6);
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(5px);
+}
+
+
+
+.article > img {
+    height: 159px;
+    margin-left: 30px;
+    margin-top: 30px;
 }

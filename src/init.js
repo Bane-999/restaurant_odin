@@ -3,10 +3,8 @@ import logo from './images/logo.png'
 
 export default function pageLoad() {
 
-    const doc = document.getElementById('content');
     const header = document.createElement('div');
     header.classList.add('header');
-    doc.appendChild(header);
 
     const menu_link = document.createElement('a');
     menu_link.classList.add('link');
@@ -30,12 +28,5 @@ export default function pageLoad() {
     contact_link.href = "";
     header.appendChild(contact_link);
 
-    const big_text = document.createElement('div');
-    big_text.classList.add("body");
-    const text = createElement('h1');
-    text.innerHTML = 'BEST FOOD IN BELGRADE';
-    big_text.appendChild(text);
-    doc.appendChild(big_text);
-
-    return doc;
+    return header;
 }
