@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+body {
+    background-image: url(./images/brick-wall-gbeb77fa68_1920.jpg);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 542px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    font-family: "Raleway",Arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Raleway";
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1em;
+    color: white;
+}
+
+.logo {
+    height: 250px; 
+}
+
+.link-logo {
+    width: 265px;height: 217px;
+    display: block;margin-left: auto;margin-right: auto;
+}
+
+h1 {
+    font-family: "Raleway",Arial,sans-serif;
+    letter-spacing: .02em;
+    font-weight: 800;
+    color: #fff;
+    font-size: 100px;
+    width: 397px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 85px;
+}
