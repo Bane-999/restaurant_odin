@@ -1,6 +1,5 @@
-import name from './name';
+import pageLoad from './init.js';
 
-const element = document.createElement('div');
-element.textContent = name("John");
+const element = document.getElementById('content');
 
-document.body.appendChild(element);
+element.appendChild(pageLoad());
