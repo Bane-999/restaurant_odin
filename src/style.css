@@ -4,6 +4,10 @@ body {
     background-image: url(./images/brick-wall-gbeb77fa68_1920.jpg);
 }
 
+.night {
+    background-image: url('./images/brick-wall-ge8f5aebf0_1920 copy.jpg');
+}
+
 .link,.logo,h1 {
     filter: drop-shadow(0px 28px 9px rgb(0,0,0,0.3))
 }

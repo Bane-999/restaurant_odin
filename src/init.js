@@ -24,12 +24,13 @@ export default function pageLoad() {
     logo_link.appendChild(mainLogo);
     header.appendChild(logo_link);
 
-    const contact_link = document.createElement('a');
-    contact_link.classList.add("link");
-    contact_link.setAttribute("id","contact")
-    contact_link.innerHTML = "Contact";
-    contact_link.href = "#";
-    header.appendChild(contact_link);
+    const night_link = document.createElement('a');
+    night_link.classList.add("link");
+    night_link.setAttribute("id","night");
+    night_link.innerHTML = "Turn off lights";    
+    
+    night_link.href = "#";
+    header.appendChild(night_link);
 
     return header;
 }
